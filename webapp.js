@@ -84,7 +84,7 @@ function updateScreen(newState) {
 			break;
 			 
 		case "S6":
-			text = "You accidentally run into a group of thugs and they kill you. Try again.";
+			text = "You accidentally run into your kidnapper and he kills you. Try again.";
 			choice1Text = "continue";
 			choice1NextState ="Dead";
 			break;
@@ -102,7 +102,7 @@ function updateScreen(newState) {
 			break;
 			
 			case "S7":
-			text = "You go to the police station and you report to the police.";
+			text = "You leave the house and report to the police.";
 			choice1Text = "continue";
 			choice1NextState = "S8";
 			break;
